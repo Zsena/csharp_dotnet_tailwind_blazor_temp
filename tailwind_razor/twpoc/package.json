@@ -1,0 +1,18 @@
+{
+  "name": "twpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss --config tailwind.config.js --postcss postcss.config.js -i Css/site.css -o ./wwwroot/css/site.css",
+    "watch": "npx tailwindcss --config tailwind.config.js --postcss postcss.config.js -i Css/site.css -o ./wwwroot/css/site.css --watch",
+    "publish": "npx tailwindcss --config tailwind.config.js --postcss postcss.config.js -i Css/site.css -o ./wwwroot/css/site.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
