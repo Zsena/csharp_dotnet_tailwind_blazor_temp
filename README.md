@@ -1,1 +1,1 @@
-# tailwind_blazor project
+# tailwind_blazor
